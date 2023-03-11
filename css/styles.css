@@ -4,6 +4,7 @@
     --accent-color: #E86F54;
     --hover-color: #E25B41;
     --focus-color: #FA6F54;
+    --focus-shadow: 0px 4px 16px rgba(250, 111, 84, 0.2);
     --modal-text-color: #5C5C5C;
    
 }
@@ -118,7 +119,7 @@ line-height: calc(29/24);
   
   .btn:focus{
     background-color: var(--focus-color);
-    box-shadow: 0px 4px 16px rgba(250, 111, 84, 0.2);
+    box-shadow: var(--focus-shadow);
   }
 
   /* Базові стилі кнопок для планшетів і десктопів */
